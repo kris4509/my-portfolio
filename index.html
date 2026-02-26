@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Chris, a Full Stack Developer and Computer Science Graduate.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container nav-content">
+            <div class="logo">Chris</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Transition Overlay -->
+    <div class="transition-overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Chris</span></h1>
+            <h2 class="fade-in delay-1">Full Stack Developer</h2>
+            <p class="fade-in delay-2">I am a <span id="typing-text"></span></p>
+            <p class="intro-desc fade-in delay-3">
+                Computer Science graduate passionate about building modern web applications 
+                using powerful front-end and back-end technologies.
+            </p>
+            <div class="hero-btns fade-in delay-4">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <h3>Bachelor Degree in Computer Science</h3>
+                    <p>
+                        I am a Computer Science graduate with strong skills in both front-end and back-end development. 
+                        I enjoy building modern, scalable, and user-friendly applications. 
+                        My goal is to become a professional software engineer and contribute to impactful digital solutions.
+                    </p>
+                    <p>
+                        Software development is not just a career for me; it's a passion. I am constantly learning 
+                        new technologies and improving my craft to stay at the forefront of the industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-grid">
+                <!-- Front-End -->
+                <div class="skill-category reveal">
+                    <h3>Front-End</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Back-End -->
+                <div class="skill-category reveal">
+                    <h3>Back-End</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <span>Python (Flask)</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Lecture Management System -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1470" alt="Lecture Management System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Lecture Management System</h3>
+                        <p>A comprehensive Flask-based system for managing academic lectures, featuring edit functionalities and live hosting on PythonAnywhere.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://kris020.pythonanywhere.com/" class="btn-sm" target="_blank">Live Demo</a>
+                            <a href="https://github.com/kris4509/lecture-management-system.git" class="btn-sm secondary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: UniFlow (VenueFlow) -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1470" alt="UniFlow System">
+                    </div>
+                    <div class="project-info">
+                        <h3>UniFlow (VenueFlow)</h3>
+                        <p>A web-based Lecture Hall Management System designed to streamline scheduling, prevent double-bookings, and improve venue utilization.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://kris010.pythonanywhere.com/" class="btn-sm" target="_blank">Live Demo</a>
+                            <a href="https://github.com/kris4509/uniflow.git" class="btn-sm secondary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title reveal">Contact Me</h2>
+            <div class="contact-container reveal">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> chris@example.com</p>
+                    <div class="social-links">
+                        <a href="https://github.com/kris4509" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chris. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/kris4509" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#home" class="back-to-top" id="backToTop">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
